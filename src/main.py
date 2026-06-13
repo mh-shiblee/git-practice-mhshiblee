@@ -1,4 +1,4 @@
-from utils import addition, subtructor, multiply
+from utils import addition, subtructor, multiply, divide
 
 name = "Mahmudul Hasan Shiblee"
 
@@ -11,7 +11,9 @@ summing_res = addition(29, 1)
 sub_res = subtructor(10, 5)
 
 multi = multiply(4, 5)
+div = divide(100, 10)
 
 print(f"Sum: {summing_res}")
 print(f"Sub: {sub_res}")
 print(f"Multiply: {multi}")
+print(f" Divide: {div}")
