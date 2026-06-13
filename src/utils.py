@@ -4,10 +4,10 @@ def addition(a, b):
     return add
 
 
-def subtructor(a, b):
-    sub = a - b
-
-    return sub
+def subtract(a, b):
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("Both inputs must be numbers")
+    return a - b
 
 
 def multiply(a, b):

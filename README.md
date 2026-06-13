@@ -19,7 +19,7 @@ I created this repository from scratch, set up the proper folder structure, work
 ### What I Practiced
 
 - Initializing a Git repository
-- Creating and managing branches (`feature/calculator` and `feature/advanced-calculator`)
+- Creating and managing branches (`main` and `feature/advanced-calculator`)
 - Making meaningful commits
 - Merging branches into `main`
 - Using `.gitignore`
